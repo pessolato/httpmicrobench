@@ -32,3 +32,7 @@ Replace `<timestamp>` with the actual timestamped directory created by the bench
 - `NUMBER_OF_REQUESTS`: Number of requests each client sends (default: 1000).
 - `BENCH_RESULTS_DIRECTORY`: Directory containing benchmark results for summary.
 - Other variables are set internally by the benchmark runner for container configuration.
+
+## Results and Analysis
+
+An analysis of the results of running this experiment can be found in [this Blog post](https://pessolato.github.io/posts/go-http-drain-close-microbench/).
